@@ -9,5 +9,5 @@ app.use(bodyParser.json());
 app.use(express.static('server/static'));
 
 app.listen(PORT, (req, res)=>{
-    console.log('Listening on port', PORT);
+    console.log(`Listening on port ${PORT}`);
 });
